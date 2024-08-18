@@ -176,6 +176,9 @@ class TestBuildIndValMatrices(unittest.TestCase):
         self.assertTrue(np.isclose(ind_mat, ind_mat_true).all() == True)
         self.assertTrue(np.isclose(val_mat, val_mat_true).all() ==True)
 
+class TestSpacialUnitConversion(unittest.TestCase):
+
+
 
 if __name__ == '__main__':
     unittest.main()
